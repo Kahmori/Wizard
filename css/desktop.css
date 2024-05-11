@@ -1,0 +1,183 @@
+@import url(./styles.css);
+
+.mainContainer{
+  width: (100vw - 2px);
+  height: 28.875rem;
+
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 14px 14px 10px #07060633;
+  border: 1px solid #CCC8BF;
+  border-radius: 38px;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.infoCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  width: 11.75rem;
+  height: 25.7rem;
+  margin-left: 1.75rem;
+
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.5px solid #B0A9A1;
+  border-radius: 10px;
+}
+
+.pin{
+  width: 1.25rem;
+  height: 2.125rem;
+
+  margin-top: 1.875rem;
+}
+
+.title{
+  font-family: "Poppins-Bold";
+  font-size: 1em;
+  width: 9rem;
+  margin-top: 4.6875rem;
+  margin-bottom: 1.875rem;
+}
+
+.subtitle{
+  font-family: "Poppins-Medium";
+  font-size: 1em;
+}
+
+.date{
+  font-family: "Poppins-ExtraLight";
+}
+
+.circle{
+  width: 5px;
+  height: 5px;
+
+  margin-right: 0.25rem;
+  
+  display: flex;
+  border: 1px solid #EC6F2D;
+  border-radius: 50%;
+}
+
+#journeyGroup{
+  display: flex;
+  flex-direction: column;
+  margin-left: -2.25rem;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-self: left;
+}
+
+.container{
+  width: 80%;
+}
+
+.header{
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+#backTag{
+  font-family: "Poppins-Regular";
+  font-size: 1em;
+  color: #EC6F2D;
+}
+
+#navigationContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+#boat{
+  width: 25px;
+  height: auto;
+  align-self: center;
+}
+
+#steps{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#steps p{
+  font-family: "Poppins-Medium";
+  font-size: 0.625em;
+  padding-top: 0.25rem;
+  color: #B0A9A1;
+}
+
+#ctaTitle{
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4.1875rem;
+  margin-bottom: 1.875rem;
+}
+
+#ctaTitle p{
+  font-family: "ZillaSlab-Bold";
+  font-size: 1.875em;
+}
+
+#caroussel{
+  display: flex;
+  gap: 0.5625rem;
+  margin-left: 10%;
+  margin-bottom: 1rem;
+}
+
+.cards{
+  width: 7.0625rem;
+  height: 7.3125rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.55rem;
+  
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.5px solid #B0A9A1;
+  border-radius: 10px;
+}
+
+.cards img{
+  margin-top: 1.5rem;
+  max-width: fit-content;
+}
+
+.cards p{
+  font-family: "Poppins-Medium";
+  font-size: 1em;
+  text-align: center;
+  letter-spacing: 0px;
+  opacity: 0.65;
+  line-height: 20px;
+}
+
+#nextButton{
+  display: flex;
+  justify-content: center;
+}
+
+#nextButton button{
+  width: 81px;
+  height: 33px;
+
+  background: #EC6F2D 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  border-color: #EC6F2D;
+
+  font-family: "Poppins-Regular";
+  font-size: 1em;
+  color: #FFFFFF;
+}

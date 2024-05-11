@@ -1,0 +1,37 @@
+body, p{
+  margin: 0;
+}
+
+p{
+  color: #070606;
+}
+
+button{
+  background-color: orange;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(./fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(./fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  src: url(./fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "ZillaSlab-Bold";
+  src: url(./fonts/Zilla_Slab/ZillaSlab-Bold.ttf);
+}
