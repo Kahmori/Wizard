@@ -1,0 +1,52 @@
+@import url(./styles.css);
+
+@media screen and (max-width: 1130px) {
+  #ctaTitle{
+    text-wrap: wrap;
+    max-width: 90%;
+    margin-left: 7%;
+    margin-top: 2.1875rem;
+  }
+
+  #caroussel{
+    flex-wrap: wrap;
+  }
+
+  #nextButton{
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 1082px) {
+  .mainContainer{
+    height: 32.875rem;
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .mainContainer{
+    height: 34.875rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container{
+    width: 70%;
+  }
+
+  .header{
+  margin-right: 0;
+  scale: 0.9;
+ } 
+}
+
+@media screen and (max-width: 900px) {
+  #navigationContainer{
+    width: 70%;
+  }
+
+  #wave{
+    scale: 0.9;
+  }
+}

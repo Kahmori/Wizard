@@ -10,7 +10,8 @@
   border-radius: 38px;
   
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
   align-content: center;
 }
@@ -118,6 +119,8 @@
 }
 
 #ctaTitle{
+  text-wrap: wrap;
+  text-align: center;
   justify-content: center;
   flex-direction: column;
   margin-top: 4.1875rem;
@@ -132,6 +135,9 @@
 #caroussel{
   display: flex;
   gap: 0.5625rem;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5%;
   margin-left: 10%;
   margin-bottom: 1rem;
 }
@@ -143,6 +149,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   gap: 0.55rem;
   
   background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -151,13 +158,18 @@
 }
 
 .cards img{
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   max-width: fit-content;
+}
+
+.cards img svg{
+  fill: #070606;
 }
 
 .cards p{
   font-family: "Poppins-Medium";
   font-size: 1em;
+  height: 2rem;
   text-align: center;
   letter-spacing: 0px;
   opacity: 0.65;
