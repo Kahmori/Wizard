@@ -175,7 +175,7 @@
 
   background: #EC6F2D 0% 0% no-repeat padding-box;
   border-radius: 10px;
-  border-color: #EC6F2D;
+  border: none;
 
   font-family: "Poppins-Regular";
   font-size: 1em;
