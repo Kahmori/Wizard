@@ -33,4 +33,4 @@ To run this project:
 
 ## Acknowledgements
 
-I couldn't forget to talk you for this opportunity and for trusting in my potential. I feel really grateful for it, and wish you the best luck about all the exciting projects you presented me.
+I couldn't forget to thank you for this opportunity and for trusting in my potential. I feel really grateful for it, and wish you the best luck about all the exciting projects you presented me.
