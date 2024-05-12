@@ -17,7 +17,7 @@ This is a project built purely in html, css and javascript. It is a responsible 
 ## 
 ![AlignmentExplanation](images/alignment.png)
 
-* This is the alignment mentioned in the item 3. This printscreen is from the Abode Design previously provided.
+* This is the alignment mentioned in the item 4. This printscreen is from the Abode Design previously provided.
 
 
 ## Run this project
@@ -33,4 +33,4 @@ To run this project:
 
 ## Acknowledgements
 
-I couldn't forget to talk you for this opportunity and for trusting in my potential. I feel really grateful for it, and wish you the best luck about all the exciting projects you presented me.
+I couldn't forget to thank you for this opportunity and for trusting in my potential. I feel really grateful for it, and wish you the best luck about all the exciting projects you presented me.
