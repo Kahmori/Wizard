@@ -1,1 +1,108 @@
 @import url(./styles.css);
+
+@media screen and (max-width: 720px) {
+  #backTag, 
+  .infoCard, 
+  #ctaTitle p:first-child,
+  .cards img,
+  #nextAdventure,
+  #nextButton{
+    display: none;
+  }
+
+  .mainContainer{
+    justify-content: flex-start;
+  }
+
+  .container{
+    width: 100%;
+  }
+
+  .header{
+    margin-left: 0;
+  }
+
+  #return{
+    scale: 0.78;
+    margin-top: 0.25rem;
+  }
+  
+  #closeIcon {
+    scale: 0.9;
+    margin-top: 0.1rem;
+}
+
+  #navigationContainer {
+    margin-top: calc(44px + 44px);
+  }
+  
+  .mobilePin{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+
+    position: absolute;
+    top: 2rem;
+    left: 5.8125rem;
+    gap: 0.625rem;
+  }
+
+  .mobilePin img{
+    height: 1.5rem;
+    margin: 0.25rem;
+  }
+
+  .mobilePin p{
+    font-family: "Poppins-Bold";
+    font-size: 0.8125em;
+    
+    
+    width: 178px;
+    min-width: 176px;
+    height: 44px;
+    
+    text-align: left;
+    letter-spacing: 0px;
+    line-height: 20px;
+    opacity: 0.65;
+  }
+
+  #ctaTitle p {
+      font-size: 1.25em;
+      width: 18.75rem;
+  }
+
+  #caroussel{
+    flex-direction: column;
+  }
+
+  .cards{
+    width: 16rem;
+    height: 2.1875rem;
+    text-wrap: nowrap;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .mobilePin{
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .mobilePin{
+    width: 55%;
+  }
+
+@media screen and (max-width: 390px) {
+  .mobilePin{
+    left: 4.7525rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .mobilePin{
+    left: 3.9525rem;
+  }
+}
+}

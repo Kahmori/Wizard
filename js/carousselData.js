@@ -26,7 +26,10 @@ function renderCards(){
   });
 
   const arrow = document.createElement('div');
-  arrow.innerHTML = `<img src="./images/Arrow.svg" alt="" />`
+  arrow.innerHTML = `
+  <span id="nextAdventure">
+    <img src="./images/Arrow.svg" alt="" />
+  </span>`
 
   cardContainer.appendChild(arrow);
 }

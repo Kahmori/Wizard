@@ -89,6 +89,10 @@
   margin-right: 1.5rem;
 }
 
+#closeIcon{
+  scale: 1.25;
+}
+
 #backTag{
   font-family: "Poppins-Regular";
   font-size: 1em;
@@ -169,6 +173,7 @@
 .cards p{
   font-family: "Poppins-Medium";
   font-size: 1em;
+  max-width: 6.625rem;
   height: 2rem;
   text-align: center;
   letter-spacing: 0px;
@@ -192,4 +197,13 @@
   font-family: "Poppins-Regular";
   font-size: 1em;
   color: #FFFFFF;
+}
+
+.currentStep{
+  font-family: "Poppins-Medium" !important;
+  color: #EC6F2D !important;
+} 
+
+.mobilePin{
+  display: none;
 }

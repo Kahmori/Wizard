@@ -8,8 +8,12 @@
 
   <link rel="stylesheet" type="text/css" href="css/desktop.css">
   <link rel="stylesheet" type="text/css" href="css/tablet.css">
+  <link rel="stylesheet" type="text/css" href="css/mobile.css">
 
-  <script type="text/javascript" src="./js/caroussel.js"></script>
+  <script type="text/javascript" src="./js/carousselData.js"></script>
+  <script type="text/javascript" src="./js/nextStep.js"></script>
+  <script type="text/javascript" src="./js/sliderCaroussel.js"></script>
+  <script type="text/javascript" src="./js/mobileAddition.js"></script>
 </head>
 <body>
   <div class="mainContainer">
@@ -27,19 +31,19 @@
     <div class="container">
       <div class="header flex">
         <div class="flex">
-          <img src="./images/go-back-arrow.svg" alt="Return">
+          <img src="./images/go-back-arrow.svg" alt="Return" id="return">
           <p id="backTag">Go Back</p>
         </div>
         <div id="navigationContainer">
           <img src="./images/boat.svg" alt="Boat" id="boat">
           <img src="./images/wave.svg" alt="Wave" id="wave">
           <div id="steps">
-            <p>Step 1</p>
-            <p>Step 2</p>
-            <p>Step 3</p>
+            <p class="step">Step 1</p>
+            <p class="step currentStep">Step 2</p>
+            <p class="step">Step 3</p>
           </div>
         </div>
-        <img src="./images/close.svg" alt="Close">
+        <img src="./images/close.svg" alt="Close" id="closeIcon">
       </div>
       <div>
           <div id="ctaTitle" class="flex">
@@ -49,9 +53,8 @@
           <div id="caroussel">
           </div>
           <div id="nextButton">
-            <button >Next</button>
-          </div>
-          
+            <button id="next">Next</button>
+          </div>  
       </div>
     </div>
   </div>
