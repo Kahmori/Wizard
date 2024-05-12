@@ -9,11 +9,14 @@
   <link rel="stylesheet" type="text/css" href="css/desktop.css">
   <link rel="stylesheet" type="text/css" href="css/tablet.css">
   <link rel="stylesheet" type="text/css" href="css/mobile.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
 
   <script type="text/javascript" src="./js/carousselData.js"></script>
   <script type="text/javascript" src="./js/nextStep.js"></script>
   <script type="text/javascript" src="./js/sliderCaroussel.js"></script>
   <script type="text/javascript" src="./js/mobileAddition.js"></script>
+  <script type="text/javascript" src="./js/navigationSlider.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.js"></script>
 </head>
 <body>
   <div class="mainContainer">
@@ -36,7 +39,11 @@
         </div>
         <div id="navigationContainer">
           <img src="./images/boat.svg" alt="Boat" id="boat">
-          <img src="./images/wave.svg" alt="Wave" id="wave">
+          <div class="slider">
+            <img src="./images/wave.svg" alt="Wave" class="wave">
+            <img src="./images/wave.svg" alt="Wave" class="wave">  
+          </div>
+          
           <div id="steps">
             <p class="step">Step 1</p>
             <p class="step currentStep">Step 2</p>

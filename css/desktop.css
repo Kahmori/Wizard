@@ -225,3 +225,31 @@
 .mobilePin{
   display: none;
 }
+
+#tns1-mw{
+  scale: 0.6;
+}
+
+.animatedBoat {
+  animation: zigzag 5s ease-in-out forwards;
+}
+
+@keyframes zigzag {
+  0% { transform:  translateY(0); }
+  25% { transform:  translateY(8px); }
+  50% { transform:  translateY(0); }
+  75% { transform:  translateY(8px); }
+  100% { transform: translateY(0); }
+}
+
+@media screen and (min-width: 900px) {
+  #steps{
+    justify-content: center;
+    gap: 12%;
+  }
+
+  #boat{
+    position: relative;
+    top: 0.445rem;
+  }
+}
