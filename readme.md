@@ -17,7 +17,7 @@ This is a project built purely in html, css and javascript. It is a responsible 
 ## 
 ![AlignmentExplanation](images/alignment.png)
 
-* This is the alignment mentioned in the item 3. This printscreen is from the Abode Design previously provided.
+* This is the alignment mentioned in the item 4. This printscreen is from the Abode Design previously provided.
 
 
 ## Run this project
