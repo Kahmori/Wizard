@@ -4,14 +4,14 @@
   #backTag, 
   .infoCard, 
   #ctaTitle p:first-child,
-  .cards img,
-  #nextAdventure,
-  #nextButton{
+  .cards svg,
+  #nextAdventure{
     display: none;
   }
 
   .mainContainer{
     justify-content: flex-start;
+    height: fit-content;
   }
 
   .container{
@@ -67,6 +67,11 @@
     opacity: 0.65;
   }
 
+  #ctaTitle{
+    margin-left: 5%;
+    text-align: center;
+  }
+
   #ctaTitle p {
       font-size: 1.25em;
       width: 18.75rem;
@@ -74,12 +79,30 @@
 
   #caroussel{
     flex-direction: column;
+    margin-right: 10%;
   }
 
   .cards{
     width: 16rem;
     height: 2.1875rem;
+    border-radius: 20px;
     text-wrap: nowrap;
+  }
+
+  .cards p{
+    max-width: 100%;
+    height: fit-content;
+    opacity: 1;
+  }
+
+  .currentAdventure{
+    border: 2px solid #EC6F2D;
+  }
+
+  #nextButton button{
+    width: 16rem;
+    height: 2.1875rem;
+    border-radius: 20px;
   }
 }
 
@@ -96,7 +119,7 @@
 
 @media screen and (max-width: 390px) {
   .mobilePin{
-    left: 4.7525rem;
+    left: 5rem;
   }
 }
 

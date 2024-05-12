@@ -1,15 +1,24 @@
 document.addEventListener('DOMContentLoaded', function(){
-  const nextAdventureSpan = document.getElementById('nextAdventure');
+  const cards = document.querySelectorAll('.cards');
+  const nextAdventureButton = document.getElementById('nextAdventure');
+  let currentIndex = 0;
 
-  nextAdventureSpan.addEventListener('click', function() {
-    const currentAdventure = document.querySelector('.currentAdventure');
-    const allAdventures = document.querySelectorAll('.cards');
-    let currentIndex = Array.from(allAdventures).indexOf(currentAdventure);
+  function updateCurrentAdventure() {
+    cards.forEach(card => {
+      card.classList.remove('currentAdventure');
+    });
+    cards[currentIndex].classList.add('currentAdventure');
+  }
 
-    if (currentIndex !== -1) {
-      currentAdventure.classList.remove('currentAdventure');
-      const nextIndex = (currentIndex + 1) % allAdventures.length;
-      allAdventures[nextIndex].classList.add('currentAdventure');
-    }
+  cards.forEach(function(card, index) {
+    card.addEventListener('click', function() {
+      currentIndex = index;
+      updateCurrentAdventure();
+    });
+  });
+
+  nextAdventureButton.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % cards.length;
+    updateCurrentAdventure();
   });
 });

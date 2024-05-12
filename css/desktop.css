@@ -202,7 +202,25 @@
 .currentStep{
   font-family: "Poppins-Medium" !important;
   color: #EC6F2D !important;
-} 
+}
+
+.currentAdventure{
+  border: 0.5px solid #EC6F2D;
+}
+
+.currentAdventure p{
+  font-family: 'Poppins-Bold';
+  color: #EC6F2D !important;
+  opacity: 1;
+}
+
+.cards svg path{
+  fill: #000;
+}
+
+.cards.currentAdventure svg path {
+  fill: #EC6F2D;
+}
 
 .mobilePin{
   display: none;
