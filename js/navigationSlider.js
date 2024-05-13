@@ -20,14 +20,14 @@ document.addEventListener('DOMContentLoaded', function(){
     currentIndex = slider.getInfo().index;
 
     switch(currentIndex) {
-      case 4:
-        animateBoat(-7.5, 22); 
-        break;
       case 2:
         animateBoat(0, 0); 
         break;
       case 3:
         animateBoat(7.5, 22); 
+        break;
+      case 4:
+        animateBoat(-7.5, 22);
         break;
       default:
         break;
@@ -42,6 +42,6 @@ document.addEventListener('DOMContentLoaded', function(){
 
     setTimeout(function() {
       boat.classList.remove('animatedBoat');
-    }, 3350); 
+    }, 3500); 
   }
 });

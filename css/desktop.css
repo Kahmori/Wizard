@@ -232,24 +232,15 @@
 }
 
 .animatedBoat {
-  animation: navigate 2.7s ease-in-out forwards;
+  animation: navigate 3.250s ease-in-out forwards;
 }
 
 @keyframes navigate {
   0% { transform:  translateY(0) translateX(0); }
-  7% {transform: translateY(4px);}
-  12% {transform: translateY(6px);}
-  20% {transform: translateY(8px);}
-  25% { transform:  translateY(10px);}
-  35% {transform: translateY(1rem);}
-  45% {transform: translateY(4px);}
-  55% { transform:  translateY(0px);}
-  65% {transform: translateY(4px);}
-  75% { transform:  translateY(1rem);}
-  80% {transform: translateY(8px);}
-  88% {transform: translateY(6px);}
-  93% {transform: translateY(4px);}
-  100% { transform: translateY(0) translateX(110%);}
+  25% { transform:  translateY(1rem);}
+  50% { transform:  translateY(0px);}
+  75% {transform: translateY(1rem);}
+  100% { transform: translateY(0) translateX(100%);}
 }
 
 @media screen and (min-width: 900px) {
