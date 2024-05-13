@@ -9,15 +9,13 @@ This is a project built purely in html, css and javascript. It is a responsible 
 
 2. All logos - except royal-caribbean - seem to be lighter in comparison with the mentioned exception. But as long as i tried to change it by code, it didn't work.
 
-3. I undertood wrongly that Tiny Slider JS Library was optional, so I didn't use as long as i didn't find it necessary. As that was a simple implementation it went fastly well. Still, i would like to apologize for this misunderstanding.
-
-4. Finally, i would like to let an observation since there is a peculiar alignment that make me uncomfortable. I am not sure if that was on purpose, therefore I thought it would be worth to mention. Important to highliht that the project is just as the design.
+3. Finally, i would like to let an observation since there is a peculiar alignment that make me uncomfortable. I am not sure if that was on purpose, therefore I thought it would be worth to mention. Important to highliht that the project is just as the design.
 
 
 ## 
 ![AlignmentExplanation](images/alignment.png)
 
-* This is the alignment mentioned in the item 4. This printscreen is from the Abode Design previously provided.
+* This is the alignment mentioned in the item 3. This printscreen is from the Abode Design previously provided.
 
 
 ## Run this project

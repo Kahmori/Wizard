@@ -9,27 +9,6 @@ document.addEventListener('DOMContentLoaded', function(){
     controls: false,
     startIndex: 1,
   });
-/*
-  var nextButton = document.getElementById('next');
-
-  
-  nextButton.addEventListener('click', function() {
-    
-    slider.goTo('next');
-
-    animateBoat();
-  });
-
-  function animateBoat() {
-    var boat = document.getElementById('boat');
-
-  boat.classList.add('animatedBoat');
-
-  setTimeout(function() {
-    boat.classList.remove('animatedBoat');
-  }, 5000);
-  }*/
-
   
   var nextButton = document.getElementById('next');
   var currentIndex = 0;
@@ -40,28 +19,29 @@ document.addEventListener('DOMContentLoaded', function(){
 
     currentIndex = slider.getInfo().index;
 
-    if (currentIndex === slider.getInfo().slideCount - 1) {
-      animateBoat('reset');
-    } else {
-      var displacement = 125;
-      animateBoat(displacement);
+    switch(currentIndex) {
+      case 4:
+        animateBoat(-7.5, 22); 
+        break;
+      case 2:
+        animateBoat(0, 0); 
+        break;
+      case 3:
+        animateBoat(7.5, 22); 
+        break;
+      default:
+        break;
     }
   });
 
-  function animateBoat(displacement) {
+  function animateBoat(displacementX, displacementY) {
     var boat = document.getElementById('boat');
-
     boat.classList.add('animatedBoat');
 
-    if (displacement === 'reset') {
-      boat.style.transform = 'translateX(-50px)'; 
-    } else {
-      boat.style.transform = 'translateX(' + displacement + 'px)'; 
+    boat.style.transform = 'translateX(' + displacementX + 'rem) translateY(' + displacementY + 'px)';
 
     setTimeout(function() {
       boat.classList.remove('animatedBoat');
-    }, 5000); 
+    }, 3350); 
   }
-
-    }
 });
